@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:gravity="center_vertical|center_horizontal|fill_horizontal"
+        android:onClick="readCNN"
+        android:paddingLeft="20dp"
+        android:text="@string/CNN"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:typeface="normal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/black"
+        android:gravity="center_vertical|center_horizontal|fill_horizontal"
+        android:onClick="readNYT"
+        android:paddingLeft="20dp"
+        android:text="@string/NYT"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:gravity="center_vertical|center_horizontal|fill_horizontal"
+        android:onClick="readMEMO"
+        android:paddingLeft="20dp"
+        android:text="@string/MEMO"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:typeface="normal" />
+
+</LinearLayout>
